@@ -17,6 +17,7 @@ conda install -c pytorch -c nvidia -c conda-forge \
     plotly tensorboard -y
 
 conda install conda-forge::spacy
+python -m spacy download en_core_web_sm
 
 pip install pytorch-lightning peft bitsandbytes trl optimum vllm wandb
 
