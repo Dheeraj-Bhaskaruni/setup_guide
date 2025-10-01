@@ -16,6 +16,8 @@ conda install -c pytorch -c nvidia -c conda-forge \
     transformers datasets evaluate accelerate tokenizers sentencepiece \
     plotly tensorboard -y
 
+conda install conda-forge::spacy
+
 pip install pytorch-lightning peft bitsandbytes trl optimum vllm wandb
 
 ```

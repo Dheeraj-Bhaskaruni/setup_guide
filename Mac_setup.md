@@ -23,6 +23,6 @@ pip install "transformers==4.42.1"
 conda install -y -c conda-forge jupyterlab notebook ipywidgets nb_conda_kernels
 python -m ipykernel install --user --name llm311 --display-name "Python (llm311)"
 
-
+conda install conda-forge::spacy
 ```
 
