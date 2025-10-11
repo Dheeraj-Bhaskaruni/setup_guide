@@ -18,7 +18,7 @@ conda install -y -c conda-forge \
 # Transformers (Python-only is fine via pip)
 python -m pip install --upgrade "pip"
 pip install "transformers==4.42.1"
-
+pip install torchtext  # stability
 # Jupyter (Lab + classic) and kernel registration
 conda install -y -c conda-forge jupyterlab notebook ipywidgets nb_conda_kernels
 python -m ipykernel install --user --name llm311 --display-name "Python (llm311)"
